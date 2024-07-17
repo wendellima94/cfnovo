@@ -2268,8 +2268,8 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat;
   background-position: center;
   mix-blend-mode: luminosity;
   transform: scale(1);
@@ -5190,6 +5190,11 @@ ul {
   display: block;
 }
 
+.footer-widget__logo img {
+  height: auto;
+  width: 200px;
+}
+
 .footer-widget__subscribe-box {
   position: relative;
   display: flex;
@@ -5574,6 +5579,7 @@ ul {
   right: 0;
   height: 85px;
   background-color: var(--govity-black);
+  /* background-color: #fd8427; */
 }
 
 .feature-two__single {
