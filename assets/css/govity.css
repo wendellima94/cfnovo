@@ -449,8 +449,8 @@ ul {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
-  width: 100%;
-  height: 100%;
+  width: 30vw;
+  height: 30vh;
 }
 
 /* scroll to top */
